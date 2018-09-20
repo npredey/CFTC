@@ -1,0 +1,24 @@
+#to comment out a line (or a product you don't want to use), or make a note in the file, just start the line with the pound symbol
+
+# Provide the path to where the program should output the data.
+output_file=C:\Users\npredey\PycharmProjects\CFTC\sample_csv_edit.csv
+
+#provide your auth token
+auth_token=fkWxN4tJYyz7T1QQr8sC
+
+# dates must be in the form YYYY-MM-DD. the start date must be before the end date
+start_date=2018-08-04
+end_date=2018-09-11
+
+# Enter a list of products by their code and location in the quandl website
+# Example: The url for futures concentration ration for TU (2-Year U.S. Treasury Note (CBOT)) is: TU,CFTC/042601_F_ALL_CR.
+
+products:
+TU,CFTC/042601_F_ALL_CR
+ED,CFTC/132741_F_ALL_CR
+FV,CFTC/044601_F_ALL_CR
+UXY,CFTC/043607_F_ALL_CR
+US,CFTC/020601_F_L_OLD_CR
+WN,CFTC/020604_F_ALL_CR
+TY,CFTC/043602_F_ALL_CR
+end
